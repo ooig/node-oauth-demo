@@ -1,7 +1,7 @@
 // Fill in your client ID and client secret that you obtained
 // while registering the application
-const clientID = '7e015d8ce32370079895'
-const clientSecret = '2b976af0e6b6ceea2b1554aa31d1fe94ea692cd9'
+const clientID = 'f33703ed4e6252feb04b'
+const clientSecret = 'b07e436a471da0c9a6486242e15f6bbfe883d144'
 
 const Koa = require('koa');
 const path = require('path');
@@ -46,6 +46,6 @@ const oauth = async ctx => {
 };
 
 app.use(main);
-app.use(route.get('/oauth/redirect', oauth));
+app.use(route.get('/oauth/github', oauth));
 
-app.listen(8080);
+app.listen(https://ooig.github.io/);
